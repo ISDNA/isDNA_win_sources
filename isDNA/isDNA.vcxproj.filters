@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Dna">
+      <UniqueIdentifier>{05c057fd-e33b-4c57-ba27-d01690275efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vecmath">
+      <UniqueIdentifier>{913160ee-c6ba-4125-b1a5-bca57ffaccb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dna">
+      <UniqueIdentifier>{b6f9c315-cd4f-4c06-9a8a-4c835722d5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vecmath">
+      <UniqueIdentifier>{964b1f25-cdc4-472b-9239-cb972fa09128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Samples">
+      <UniqueIdentifier>{baaafda6-f99a-42c1-9af4-f48b38075c2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BuildingBlock.h">
+      <Filter>Header Files\Dna</Filter>
+    </ClInclude>
+    <ClInclude Include="Dna.h">
+      <Filter>Header Files\Dna</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="Tuple.h">
+      <Filter>Header Files\Vecmath</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Vecmath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dna.cpp">
+      <Filter>Source Files\Dna</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingBlock.cpp">
+      <Filter>Source Files\Dna</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\Vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="Tuple.cpp">
+      <Filter>Source Files\Vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Vecmath</Filter>
+    </ClCompile>
+    <ClCompile Include="Samples.cpp">
+      <Filter>Source Files\Samples</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
